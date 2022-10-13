@@ -35,7 +35,7 @@ const createGrid = (amtOfGrids) => {
             const { r, g, b } = createRGB()
 
             // size of grid
-            const widthAndHeight = 960 / sizeOfGrid
+            const widthAndHeight = 640 / sizeOfGrid
 
 
             // grid box alert
