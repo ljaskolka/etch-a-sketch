@@ -41,6 +41,16 @@ body {
     align-items: center;
 }
 
+.message {
+    display: none;
+    justify-content: center;
+    margin-top: 50%;
+    font-size: 2rem;
+    color: red;
+    background-color: black;
+}
+
+
 .restart {
     font-family: 'Pacifico', cursive;
     font-weight: 700;
@@ -92,3 +102,15 @@ body {
 .restart:hover {
     text-shadow: 2px 4px black;
 }
+
+
+@media (max-width: 900px){
+    .message {
+        display: flex;
+        justify-content: center;
+        margin-top: 50%;
+        font-size: 2rem;
+        color: red;
+        background-color: black;
+    }
+  }
